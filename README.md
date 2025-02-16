@@ -1,4 +1,24 @@
 
+# FastAPI + CDK
+## Endpoints
+- /uploads 
+  - given a user-id in the header, returns a list of the user's shortened urls
+- /upload 
+  - given a file and user-id uploads a file to S3 and returns the shortened slug for that file
+- /shorten
+  - given a url and user-id shortens a url and returns the shortened slug
+
+## Future expansions
+
+- Authentication for the APIs so that user-id isn't just given in the header. Authentication could put this into a JWT
+- Using Signed URLs rather than the S3 bucket being open to public read.
+- Allow users the delete files/urls
+- Allow users to set expiry on files/urls
+- Scanning of files going into S3 to detect malware/other harmful material
+- File size limits per user/per request
+
+
+
 # Welcome to your CDK Python project!
 
 This is a blank project for CDK development with Python.
