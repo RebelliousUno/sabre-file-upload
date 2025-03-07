@@ -21,7 +21,7 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
 mdurl==0.1.2
 pydantic==2.10.6
-pydantic-core==2.27.2
+pydantic-core==2.31.1
 pygments==2.19.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
